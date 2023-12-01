@@ -1,0 +1,97 @@
+
+   
+ 
+  /* item.css */
+.item-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(142, 15, 15, 0.1); 
+    background-color: rgb(1, 38, 38);
+  }
+  
+  .item-container h2 {
+    text-align: center;
+    color: #f8f8f8;
+  }
+  
+  .item-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    margin-bottom: 60px;/* Add some spacing between rows */
+  }
+  .item-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item-container img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .item-row button {
+    margin-top: 20%;
+    padding: 8px;
+    background-color: #e1f0e9;
+    color: rgb(12, 11, 11);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Adjust the layout for smaller screens */
+  @media (max-width: 800px) {
+    .item-container {
+      margin: 30px;
+      padding: 30px;
+    }
+  
+    .item-container img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .item-row button:active{
+    background: #544d4d;
+} 
+.text-lg {
+  font-size: 2rem; /* You can adjust the size as needed */
+  font-weight: bold; /* or font-weight: 600; depending on your preference */
+  color: #333; /* Set the desired text color */
+  /* Add any other styles you want for the heading */
+}
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

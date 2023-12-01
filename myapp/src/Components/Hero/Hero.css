@@ -1,0 +1,89 @@
+.hero {
+    position: relative;
+    
+  }
+  
+  .hero-background {
+    height: 100vh;
+  }
+  
+  .bgs-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+  .hero {
+    position: relative;
+  }
+  
+  .hero-background {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #fff; /* Set text color to white or a suitable color for better visibility */
+  }
+  
+  .bgs-text {
+    text-align: center;
+    padding: 50px; /* Adjust as needed for spacing */
+  }
+  
+  /* Effects on the text */
+  .bgs-text h2 {
+    font-size: 2.5em; /* Adjust font size as needed */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+    animation: fadeInUp 1s ease; 
+    animation: moveUp 3s infinite alternate;
+    /* animation: moveRightLeft 2s infinite linear;/* Add a fadeInUp animation effect */
+  } 
+  
+   @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } 
+   @keyframes moveUp {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  } 
+   /* @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-75%);
+    }
+  }  */
+  
+
+
+/* @keyframes moveRightLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-40%);
+  }
+} */
+  
+  
+  
+  
+  

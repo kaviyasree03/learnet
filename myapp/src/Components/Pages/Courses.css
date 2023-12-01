@@ -1,0 +1,33 @@
+
+  
+  
+  
+  .hero {
+    position: relative;
+  }
+  
+  .hero-background {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+  }
+  .course{
+    background-color: black;
+    color: rgb(13, 13, 13);
+    padding-bottom: 5px;
+  
+  
+  }
+  
+  
+  
+  
+  
+  

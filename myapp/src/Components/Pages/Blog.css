@@ -1,0 +1,106 @@
+.home {
+  position: relative;
+/* Ensure proper positioning of the Hero component */
+padding: top 100px; 
+}
+.tittle h2 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Change the font-family to your preference */
+  font-size: 2.5em; /* Adjust the font size */
+  letter-spacing: 2px; /* Add letter-spacing for visual appeal */
+/* Convert text to uppercase */
+  font-weight: bold; /* Apply bold font weight */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+  color: white; /* Set the text color */
+  transition: color 0.3s ease-in-out; /* Add a smooth color transition effect */
+  text-align: center;
+  background-color: rgb(28, 28, 28);
+  padding: 20px;
+  animation: scale 4s ease-in-out infinite alternate;
+}
+
+/* Hover effect - change color on hover */
+.tittle:hover h2 {
+  color:rgb(207, 198, 237);
+  font-family:'poppins'; /* Change the color on hover to gold */
+}
+
+.content,
+.contents {
+z-index: 1; /* Ensure content is on top of the Hero */
+display: flex;
+flex-direction: row;
+align-items: center;
+color: whitesmoke;
+background-color: rgb(11, 1, 1);
+padding: 40px;
+}
+
+.content p,
+.contents p {
+flex: 1;
+}
+
+.content img,
+.contents img {
+width: 200px;
+height:200px;
+margin-right: 20px;
+}
+.contents img {
+  height: 200px;
+width: 200px;
+margin-left: 20px; /* Adjust margin-left for the second image */
+}
+.contents img {
+order: 0;
+}
+
+.contents p {
+order: 1;
+}
+.motion-image {
+width: 20%;
+height: 20%;
+transition: transform 0.3s ease-in-out; /* Adjust the duration and easing as needed */
+
+/* Optional: Add a shadow or border for a more pronounced effect */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+animation: rotate 2s linear infinite; 
+animation: scale 2s ease-in-out infinite alternate;
+}
+.contents h1,.content h1{
+display: flex;
+border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+ 
+ 
+}
+
+.motion-image:hover {
+transform: scale(1.1); /* Adjust the scaling factor for the hover effect */
+}
+/* @keyframes rotate {
+0% {
+  transform: rotate(0deg);
+}
+100% {
+  transform: rotate(360deg);
+}
+} */
+@keyframes scale {
+0% {
+  transform: scale(1);
+}
+100% {
+  transform: scale(1.2);
+}
+}
+
+
+
+
+
+

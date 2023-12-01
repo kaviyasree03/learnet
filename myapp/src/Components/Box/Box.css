@@ -1,0 +1,47 @@
+.box {
+    width: 1100px;
+    height: 250px;
+    align-items: center;
+    
+    /* /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-color: rgb(1, 38, 38);
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+    
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(142, 15, 15, 0.1); 
+    
+    
+  }
+  .box title{
+   text-align: center;
+    padding: 30px;
+    margin-left: 10%;
+    padding-left: 50px;
+  }
+ 
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+  }
+
+
+.b1,
+.b2 {
+  /* Your existing styles for the buttons */
+  margin: 0; /* Remove any default margin */
+  padding: 10px;
+}

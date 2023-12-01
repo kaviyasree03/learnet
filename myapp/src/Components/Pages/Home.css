@@ -1,0 +1,71 @@
+.home{
+    background-color: black;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box-container title{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif; /* Change the font-family to your preference */
+    font-size: 6.5em; /* Adjust the font size */
+    letter-spacing: 2px; /* Add letter-spacing for visual appeal */
+ /* Convert text to uppercase */
+    font-weight: bold; /* Apply bold font weight */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+    color: white; /* Set the text color */
+}
+.home img{
+    background: fixed;
+    display: flex;
+    height: 1000px;
+}
+.bgs-text1 {
+    text-align: left;
+    padding: 50px; /* Adjust as needed for spacing */
+  }
+  
+  /* Effects on the text */
+  
+  .bgs-text2 {
+    text-align: right;
+    padding: 50px; /* Adjust as needed for spacing */
+  }
+  
+  /* Effects on the text */
+  .bgs-text2 h2 {
+    font-size: 2.5em; /* Adjust font size as needed */
+    font-weight: bold;
+     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+    animation: fadeInUp 1s ease; 
+    animation: moveUp 3s infinite alternate;
+   
+     
+  }  .bgs-text1 h2 {
+    font-size: 2.5em; /* Adjust font size as needed */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+    animation: fadeInUp 1s ease; 
+    animation: moveUp 3s infinite alternate;
+    text-align: center;
+    /* animation: moveRightLeft 2s infinite linear;/* Add a fadeInUp animation effect */
+  } 
+  
+   @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } 
+   @keyframes moveUp {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  } 

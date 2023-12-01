@@ -1,0 +1,30 @@
+.ui{
+    background-color: black;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box-container title{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Change the font-family to your preference */
+    font-size: 6.5em; /* Adjust the font size */
+    letter-spacing: 2px; /* Add letter-spacing for visual appeal */
+ /* Convert text to uppercase */
+    font-weight: bold; /* Apply bold font weight */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow */
+    color: white; /* Set the text color */
+}
+.box-container button{
+    width:157px;
+    height:58px;
+    outline:none;
+    border: 1px solid #171313;
+     border-radius: 75px;
+     color:white;
+     font-size: 20px;
+     font-weight: 500;
+     background:rgb(122, 120, 120);
+     cursor:pointer;
+     margin-left: 10%;
+     
+}
